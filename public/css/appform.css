@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position-x: center;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    font-size:large;
+}
+legend{ 
+    text-align: center;
+    }
+.navbar {
+    overflow: hidden;
+    background-color: rgb(39, 39, 39);
+}
+button {
+float: left;
+font-size: 20px;
+text-align: center;
+padding: 6px 8px;
+margin: 7px;
+text-decoration: none;
+border-radius: 6px;
+}
+button:hover{
+background-color: rgba(190, 190, 190, 0.698);
+border-color:  rgb(50, 139, 255);
+border-radius: 2px;
+}
+
+label, input{
+margin:8px;
+padding: 5px;
+}
+label:not(#female):not(#male):not(#other):not(#membership):not(#facilities-swim):not(#facilities){
+margin-left: 35%;
+}

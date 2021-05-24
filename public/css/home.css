@@ -1,0 +1,192 @@
+   
+.logo{
+    height: 17em;
+    margin-left: 11em;
+}
+
+.desc{
+    font-size: larger;
+    text-align: center;
+    float: right;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    padding-right: 40px;
+    margin-right: 30px;
+    color: azure;
+}
+
+.description {
+    overflow: hidden;
+    background-color: rgb(0, 27, 77);
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.membership-types {
+    color:rgb(0, 27, 77);
+    background-color: azure;
+    padding-bottom: 6px;
+}
+
+.membership-types h1{
+    text-align: justify;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-left: 80px;
+    color: rgb(0, 27, 77);
+}
+
+.mem p{
+    font-size: larger;
+    text-align: justify;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    margin-left: 80px;
+    color: rgb(0, 27, 77);
+}
+.mem ul{
+    font-size: larger;
+    text-align: justify;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    margin-left: 95px;
+    color: rgb(0, 27, 77);
+}
+.facilities-types{
+    background-color:rgb(0, 27, 77); 
+    color: azure;
+    padding: 10px;
+    padding-left: 110px;
+}
+
+.facilities-types h1{
+    text-align: justify;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-left: 630px;
+    color:azure;
+}
+
+.facilities-types p{
+    font-size: larger;
+    text-align: justify;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    margin-left: 630px;
+    color: azure;
+}
+
+.facilities-types ul{
+    font-size: larger;
+    text-align: justify;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    margin-left: 650px;
+    color: azure;
+}
+
+.motto{
+    background-color: azure;
+    color: rgb(0, 27, 77);
+    text-align: center;
+    margin-top: 20px;
+}
+.motto table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .motto th {
+    text-align: center;
+    padding: 5px;
+    font-weight: lighter;
+  }
+
+
+.reviews {
+    background-color: rgb(0, 27, 77);
+    color: azure;
+    padding-bottom: 6px;
+}
+
+.reviews h1{
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    color: azure;
+}
+
+.reviews table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 14%;
+  }
+  .reviews td {
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+.follow-us {
+    text-align: center;
+    background-color:azure; 
+    color: rgb(0, 27, 77);
+    padding-bottom: 6px;
+}
+.fa {
+    padding: 10px;
+    font-size: 60px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    background-color: rgb(0, 27, 77);
+    color: azure;
+  text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+

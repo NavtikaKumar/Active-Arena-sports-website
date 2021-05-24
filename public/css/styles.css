@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .navbar {
+      overflow: hidden;
+      background-color: rgb(39, 39, 39);
+      margin-bottom: 0;
+    }
+  .navbar a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      float: left;
+      font-size: 18px;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      margin: 2px;    
+      color: azure;
+    }
+    .register, .trainer {
+        float: right;
+      font-size: 20px;
+      text-align: center;
+      padding: 8px 10px;
+      text-decoration: none;
+      border-radius: 4.5px;
+      margin: 5px;
+    }
+    .navbar button:hover{
+        background-color: rgba(190, 190, 190, 0.698);
+        border-color:  rgb(50, 139, 255);
+        border-radius: 2px;
+    }
+  
+    
+    .navbar a:hover{
+      background-color:rgba(0, 0, 0, 0.63);
+      color: rgb(93, 163, 255);
+      text-decoration: none;
+    } 
+    
+    footer{
+      font-size: large;
+      text-decoration: solid;
+      text-align: center;
+      background-color: rgb(0, 27, 77);
+      color: azure;
+      margin-top: 10px;
+      padding: 10px;
+    }
+
+ 

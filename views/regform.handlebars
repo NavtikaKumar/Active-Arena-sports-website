@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="/css/regform.css">
+<div class="navbar">
+            <button class="cancel" onclick="cancelform()">Cancel Registration</button>
+        </div>
+<form method="POST" action="/api/register">
+            <fieldset>
+                <legend><h1>Registration Form</h1></legend>
+                <label for="name">Full Name: </label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 0.3%;"><br>
+                <label for="gender">Gender: </label><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 0.3%;">
+                <input type="radio" id="gender" name="gender" value="male">
+                <label for="male" id="male">Male</label>
+                <input type="radio" id="gender" name="gender" value="female">
+                <label for="female" id="female">Female</label>
+                <input type="radio" id="gender" name="other" value="other">
+                <label for="other" id="other">Other</label><br>
+                <label for="dob" >Date of Birth: </label>
+                <input type="date" id="dob" name="dob" required><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 0.3%;"><br>
+                <label for="mobile">Mobile number: </label>
+                <input type="text" id="mobile" name="primeMob" placeholder="Enter your mobile number" required><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 0.3%;"><br>
+                <label for="secmob">Secondary mobile number: </label>
+                <input for="secmob" id="secmob" name="secMob" placeholder="(optional)"><br>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" pattern="^\w+[\w-\.]*\@\w+((-\w+)|(\w*))\.[a-z]{2,3}$" placeholder="Enter your email" required><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 0.3%;"><br>
+                <label for="address" >Address: </label>
+                <input type="text" id="address" name="address" placeholder="Enter your address" style="padding:20px;"><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 1.8%;"><br>
+                <label for="father">Father's Name: </label>
+                <input type="text" id="father" name="father" placeholder="Enter your fathers name" required><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 0.3%;"><br>
+                <label for="mother">Mother's Name: </label>
+                <input type="text" id="mother" name="mother" placeholder="Enter your mothers name " required><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 0.3%;"><br>
+                <label for="spouse">Spouse's Name: </label>
+                <input type="text" id="spouse" name="spouse" placeholder="If applicable"><br>
+                <label for="membership">Type of membership: </label><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 0.3%;">
+                <input type="radio" id="membership" name="memType" value="premium">
+                <label for="premium" id="membership">Premium Membership</label><br>
+                <input type="radio" id="membership" name="memType" value="annual" style="margin-left: 51.8%;">
+                <label for="annual" id="membership">Annual Membership</label><br>
+                <input type="radio" id="membership" name="memType" value="semi-annual" style="margin-left: 51.8%;">
+                <label for="semi-annual" id="membership">Semi-Annual Membership</label><br>
+                <label for="facilities">Facilities:</label><img src="/images/required symbol.png" style="width: 0.8%; padding-bottom: 0.3%;">
+                    <input type="radio" name="facilities" value="swimming"><label id="facilities-swim">Swimming</label><br>
+                    <input type="radio" name="facilities" value="athletics" style="margin-left: 42.9%;"><label id="facilities">Athletics</label><br>
+                    <input type="radio" name="facilities" value="boxing" style="margin-left: 42.9%;"><label id="facilities">Boxing</label><br>
+                    <input type="radio" name="facilities" value="badminton" style="margin-left: 42.9%;"><label id="facilities">Badminton</label><br>
+                    <input type="radio" name="facilities" value="shooting" style="margin-left: 42.9%;"><label id="facilities">Shooting</label><br>
+                    <input type="radio" name="facilities" value="lawn-tennis" style="margin-left: 42.9%;"><label id="facilities">Lawn Tennis</label><br>
+                    <input type="radio" name="facilities" value="gymnastics" style="margin-left: 42.9%;"><label id="facilities">Gymnastics</label><br>
+                    <input type="radio" name="facilities" value="wrestling" style="margin-left: 42.9%;"><label id="facilities">Wrestling</label><br>
+                <button type="submit" style="margin-left: 41%;" >Submit and Register</button>
+            </fieldset>
+        </form>

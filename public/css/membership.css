@@ -1,0 +1,22 @@
+.membership{
+    margin-left: 2%;
+}
+.memDesc{
+    font-size: large;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  td, th {
+    border: 1px solid rgb(156, 184, 221, 0.4);
+    text-align: left;
+    padding: 15px;
+    font-size: medium;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(156, 184, 221, 0.4);
+  }
